@@ -9,10 +9,12 @@
 - find steps [here](src/main/resources/notes/2.0_crud_operations_springboot_app.md)
 
 ## setting profile dynamically based on environment which its run from via maven
+- find steps [here](src/main/resources/notes/3.0_setting_profile_dynamically.md)
 
 ## converting properties file to yaml 
 
-## dockerizing the application
+
+## dockerized the application
 
 ## deploying to kubernetes cluster
 
