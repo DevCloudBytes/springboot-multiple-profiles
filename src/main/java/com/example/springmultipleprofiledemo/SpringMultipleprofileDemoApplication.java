@@ -14,17 +14,17 @@ public class SpringMultipleprofileDemoApplication {
 
 		ApplicationContext context = SpringApplication.run(SpringMultipleprofileDemoApplication.class, args);
 
-		UserRepository userRepository = context.getBean(UserRepository.class);
-
-		User user = new User();
-
-		user.setCity("Varanasi");
-		user.setName("Nitin Jain");
-		user.setStatus("I am DevOps Person");
-
-		User user1 = userRepository.save(user);
-
-		System.out.println(user1);
+//		UserRepository userRepository = context.getBean(UserRepository.class);
+//
+//		User user = new User();
+//
+//		user.setCity("Varanasi");
+//		user.setName("Nitin Jain");
+//		user.setStatus("I am DevOps Person");
+//
+//		User user1 = userRepository.save(user);
+//
+//		System.out.println(user1);
 
 
 	}
