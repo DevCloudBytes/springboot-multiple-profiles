@@ -13,6 +13,7 @@
 
 ## converting properties file to yaml 
 
+- find steps [here](src/main/resources/notes/4.0_converting_properties_to_yaml.md)
 
 ## dockerized the application
 

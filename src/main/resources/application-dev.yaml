@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-multipleprofile-demo
+  datasource:
+    name: development
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/devdb?useSSL=false
+    username: njain50
+    password: myra123@
+    hikari:
+      initialization-fail-timeout: 0
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
